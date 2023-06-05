@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69db7841f7183a147993bfe0e74fe292, type: 3}
+  m_Name: AuthSettings
+  m_EditorClassIdentifier: 
+  _ApiKey: Iyt17TbILJ0sX78FbFtzYtWj5pMYpE2L8OTZRc5WQs61RjCkKvXVfn5lxkvE1PRx
+  _ApiServerAddress: http://api.segal.games/dev/
+  _ApiLocalAddress: http://127.0.0.1:8000/dev/
+  _RegisterUrl: player/register/
+  _LoginUrl: player/login/
+  _RegisterUsernameRegex: ^(?=[a-zA-Z0-9._]{4,15}$)(?!.*[_.]{2})[^_.].*[^_.]$
+  _RegisterPasswordRegex: ^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$
+  _RegisterDoneLog: You have been successfully registered
+  _UsernameAlreadyExistsLog: The username you have eneterd has already been used
+  _EmailAlreadyExistsLog: The email you have eneterd has already been used
+  _InvalidUsernameLog: The username you have eneterd is not valid
+  _InvalidEmailLog: The email address you have entered is not in correct format
+  _IncorrectPasswordLog: The password you have entered is not correct
+  _InvalidConfirmPasswordLog: The password and confirm password are not matched
+  _GenderNotSpecifiedLog: The gender is not specified
+  _LoginDoneLog: You have beed successfully logged in
+  _LoginFailedLog: The username or password is not correct

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c685ca36af29b40d8a913811ef726968, type: 3}
+  m_Name: ApiSettings
+  m_EditorClassIdentifier: 
+  _ApiKey: Iyt17TbILJ0sX78FbFtzYtWj5pMYpE2L8OTZRc5WQs61RjCkKvXVfn5lxkvE1PRx
+  _ServerAddress: http://api.segal.games/dev/
+  _LocalAddress: http://127.0.0.1:9000/dev/
+  _Local: 1
+  _NetError: Something went wrong. Check your internet connection
+  _InternetError: You are not connected to internet
+  _HttpError: Something went wrong. Please try later
+  _UnhandledError: Unhandled error!!
+  _Success: Successful
